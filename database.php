@@ -1,7 +1,7 @@
 <?php
 class Database{
-	private const USERNAME = "root";
-	private const PASSWORD = "";
+	private const USERNAME = "vagrant";
+	private const PASSWORD = "vagrantpass";
 	private const HOST = "localhost:3306";
 	private const DATABASE = "vagrant";
 	private static $_connection;
